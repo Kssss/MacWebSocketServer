@@ -25,54 +25,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../Core/WebSocket.m"
-            timestampString = "514015001.246907"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "232"
-            endingLineNumber = "232"
-            landmarkName = "-start"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[WebSocket start]"
-                  moduleName = "SimpleWebSocketServer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vieene/CocoaHTTPServer/Core/WebSocket.m"
-                  timestampString = "514015001.252094"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "235"
-                  endingLineNumber = "235"
-                  offsetFromSymbolStart = "41">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__18-[WebSocket start]_block_invoke"
-                  moduleName = "SimpleWebSocketServer"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vieene/CocoaHTTPServer/Core/WebSocket.m"
-                  timestampString = "514015001.255525"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "235"
-                  endingLineNumber = "235"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "MyWebSocket.m"
             timestampString = "514015092.885769"
             startingColumnNumber = "9223372036854775807"
@@ -89,13 +41,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../Core/WebSocket.m"
-            timestampString = "514015206.90607"
+            filePath = "MyHTTPConnection.m"
+            timestampString = "514018034.645649"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "545"
-            endingLineNumber = "545"
-            landmarkName = "-sendData:"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-httpResponseForMethod:URI:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Core/HTTPConnection.m"
+            timestampString = "514018295.787451"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "918"
+            endingLineNumber = "918"
+            landmarkName = "-replyToHTTPRequest"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

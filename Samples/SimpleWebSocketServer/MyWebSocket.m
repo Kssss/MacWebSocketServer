@@ -13,15 +13,16 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_WARN | HTTP_LOG_FLAG_TRACE;
 	HTTPLogTrace();
 	
 	[super didOpen];
-	
-	[self sendMessage:@"Welcome to my WebSocket"];
+
+    
+	[self sendMessage:@"App 发过来的消息： Welcome to my WebSocket"];
 }
 
 - (void)didReceiveMessage:(NSString *)msg
 {
 	HTTPLogTrace2(@"%@[%p]: didReceiveMessage: %@", THIS_FILE, self, msg);
 	
-	[self sendMessage:[NSString stringWithFormat:@"%@", [NSDate date]]];
+	[self sendMessage:[NSString stringWithFormat:@"App 发过来的消息：%@", [NSDate date]]];
 }
 
 - (void)didClose

@@ -9,9 +9,11 @@ function WebSocketTest2()
 			alert("websocket is open");
 			
 			// You can send data now
-			ws.send("Hey man, you got the time?");
+			ws.send("websocketClient send to server");
+            ws.send("---------");
+
 		};
-		ws.onmessage = function(evt) { alert("received: " + evt.data); };
+		ws.onmessage = function(evt) { alert("Client received: " + evt.data); };
 		ws.onclose = function() { alert("websocket is closed"); };
 	}
 	else
