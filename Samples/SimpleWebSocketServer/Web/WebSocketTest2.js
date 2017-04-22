@@ -13,7 +13,10 @@ function WebSocketTest2()
             ws.send("---------");
 
 		};
-		ws.onmessage = function(evt) { alert("Client received: " + evt.data); };
+		ws.onmessage = function(evt) {
+            alert("111Client received: " + evt.data);
+            console.log("Connection onMessage...");
+        };
 		ws.onclose = function() { alert("websocket is closed"); };
 	}
 	else

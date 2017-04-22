@@ -25,8 +25,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_WARN; // | HTTP_LOG_FLAG_TRACE;
 		// 
 		// We need to replace "%%WEBSOCKET_URL%%" with whatever URL the server is running on.
 		// We can accomplish this easily with the HTTPDynamicFileResponse class,
-		// which takes a dictionary of replacement key-value pairs,
-		// and performs replacements on the fly as it uploads the file.
+ 		// and performs replacements on the fly as it uploads the file.
 		
 		NSString *wsLocation;
 		
@@ -56,6 +55,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_WARN; // | HTTP_LOG_FLAG_TRACE;
 {
 	HTTPLogTrace2(@"%@[%p]: webSocketForURI: %@", THIS_FILE, self, path);
 	
+    //设置URI
 	if([path isEqualToString:@"/service"])
 	{
 		HTTPLogInfo(@"MyHTTPConnection: Creating MyWebSocket...");

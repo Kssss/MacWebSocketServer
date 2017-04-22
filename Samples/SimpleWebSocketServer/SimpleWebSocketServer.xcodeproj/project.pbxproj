@@ -29,6 +29,9 @@
 		DC753F2D117E85F90072A9C4 /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DC753F2C117E85F90072A9C4 /* MyHTTPConnection.m */; };
 		DC753F40117E8EC30072A9C4 /* MyWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC753F3F117E8EC30072A9C4 /* MyWebSocket.m */; };
 		DCE8083B1180AB500020037F /* Web in Resources */ = {isa = PBXBuildFile; fileRef = DCE808361180AB500020037F /* Web */; };
+		DE9367A11EA4A62A0067AC70 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DE93679E1EA4A62A0067AC70 /* index.html */; };
+		DE9367A21EA4A62A0067AC70 /* WebSocketTest.js in Resources */ = {isa = PBXBuildFile; fileRef = DE93679F1EA4A62A0067AC70 /* WebSocketTest.js */; };
+		DE9367A31EA4A62A0067AC70 /* WebSocketTest2.js in Resources */ = {isa = PBXBuildFile; fileRef = DE9367A01EA4A62A0067AC70 /* WebSocketTest2.js */; };
 		DEAE34AF1EA3283100C2EFF5 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE34941EA3283100C2EFF5 /* CLIColor.m */; };
 		DEAE34B01EA3283100C2EFF5 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE34971EA3283100C2EFF5 /* DDAbstractDatabaseLogger.m */; };
 		DEAE34B11EA3283100C2EFF5 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE34991EA3283100C2EFF5 /* DDASLLogCapture.m */; };
@@ -95,6 +98,9 @@
 		DC753F3E117E8EC30072A9C4 /* MyWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebSocket.h; sourceTree = "<group>"; };
 		DC753F3F117E8EC30072A9C4 /* MyWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebSocket.m; sourceTree = "<group>"; };
 		DCE808361180AB500020037F /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
+		DE93679E1EA4A62A0067AC70 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DE93679F1EA4A62A0067AC70 /* WebSocketTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WebSocketTest.js; sourceTree = "<group>"; };
+		DE9367A01EA4A62A0067AC70 /* WebSocketTest2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WebSocketTest2.js; sourceTree = "<group>"; };
 		DEAE34931EA3283100C2EFF5 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
 		DEAE34941EA3283100C2EFF5 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
 		DEAE34951EA3283100C2EFF5 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
@@ -210,6 +216,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DE93679D1EA4A62A0067AC70 /* Web */,
 				DCE808361180AB500020037F /* Web */,
 				8D1107310486CEB800E47090 /* SimpleWebSocketServer-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -289,6 +296,16 @@
 				DC373018139DC5D200A8407D /* Categories */,
 			);
 			name = HTTP;
+			sourceTree = "<group>";
+		};
+		DE93679D1EA4A62A0067AC70 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				DE93679E1EA4A62A0067AC70 /* index.html */,
+				DE93679F1EA4A62A0067AC70 /* WebSocketTest.js */,
+				DE9367A01EA4A62A0067AC70 /* WebSocketTest2.js */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 		DEAE34911EA3283100C2EFF5 /* COCOALUMBERJACK */ = {
@@ -406,6 +423,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9367A21EA4A62A0067AC70 /* WebSocketTest.js in Resources */,
+				DE9367A11EA4A62A0067AC70 /* index.html in Resources */,
+				DE9367A31EA4A62A0067AC70 /* WebSocketTest2.js in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				DCE8083B1180AB500020037F /* Web in Resources */,
